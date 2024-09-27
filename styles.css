@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('img/bloques.png');
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Asegura que el fondo ocupe toda la altura de la ventana */
+    margin: 0;
+   
+}
+
+#container {
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    background-color: #7a7474;
+    transition: background-color 0.5s;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#tag-display {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#buttons button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.correct  #container{
+    background-color: green !important;
+}
+
+.wrong  #container{
+    background-color: red !important;
+}
